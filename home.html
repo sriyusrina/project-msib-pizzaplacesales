@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/24.png">
+        <title>Home - Pizza Sales Team 24</title>
+        <!-- Link Data Tables -->
+        <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.css" />
+        <!-- Link Icon -->
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/home.css">
+        <!-- Link Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!-- LINK HEADER -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    </head>
+
+    <body>
+        <!-- HEADER -->
+        <header>
+            <div class="logojudul-kiri">
+                <img class="logo" src="img/pizza.png" alt="Logo Pizza">
+                <h1>PIZZA PLACE SALES REPORT</h1>
+            </div>
+            <nav>
+                <input type="checkbox"id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul>
+                    <li><a class="active" href="home.html" onclick="loadPage('home.html')" style="color: #ffcc00;">Home</a></li>
+                    <li><a href="statistic.html" onclick="loadPage('statistic.html')">Statistics</a></li>
+                    <li><a href="team.html" onclick="loadPage('team.html')">About Us</a></li>
+                    <li><a href="index.html">
+                        <div class="bx bx-log-out" id="logout"></div>
+                    </a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- HOME START -->
+         <section class="home" id="home">
+            <div class="home-text">
+                <h1>Pizza Restaurant</h1>
+                <h2>Semarang 24</h2>
+                <a href="#about" class="btn">Today's Menu</a>
+            </div>
+
+            <div class="home-img">
+                <img src="img/homebar/home.png" alt="">
+            </div>
+         </section>
+
+         <!-- ABOUT START -->
+         <section class="about" id="about">
+            <div class="about-img">
+                <img src="img/homebar/about.png">
+            </div>
+
+            <div class="about-text">
+                <!-- <span>About Us</span> -->
+                <h2>California Chicken Pizza</h2>
+                <p>California Chicken Pizza is a style of pizza that combines New York and Italian thin crust with toppings from the California cuisine cooking style. Its invention is generally attributed to chef Ed LaDou, and Chez Panisse, in Berkeley, California. Wolfgang Puck, after meeting LaDou, popularized the style of pizza in the rest of the country.</p>
+                <a href="#services" class="btn">Learn More</a>
+            </div>
+         </section>
+
+         <!-- Menu Start-->
+          <section class="menu" id="menu">
+            <div class="heading">
+                <span>Pizzas Menu</span>
+                <h2>Fresh taste and great price</h2>
+            </div>
+
+            <div class="menu-container">
+                <div class="box">
+                    <div class="box-img">
+                        <img src="img/homebar/food1.png" alt="">
+                    </div>
+                    <h2>Classic Deluxe</h2>
+                    <h3>Tasty Food</h3>
+                    <span>$16.00</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+
+                <div class="box">
+                    <div class="box-img">
+                        <img src="img/homebar/food2.png" alt="">
+                    </div>
+                    <h2>California Chicken</h2>
+                    <h3>Tasty Food</h3>
+                    <span>$16.00</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+
+                <div class="box">
+                    <div class="box-img">
+                        <img src="img/homebar/food3.png" alt="">
+                    </div>
+                    <h2>Italian Capocollo</h2>
+                    <h3>Tasty Food</h3>
+                    <span>$16.00</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+            </div>
+          </section>
+
+          <!-- Service Start -->
+           <section class="services" id="services">
+            <div class="heading">
+                <span>Services</span>
+                <h2>We provide best quality food</h2>
+            </div>
+
+            <div class="services-container">
+                <div class="s-box">
+                    <img src="img/homebar/s1.png" alt="">
+                    <h3>Order</h3>
+                    <p>The ordering process is quick and easy to provide maximum convenience.</p>
+                </div>
+
+                <div class="s-box">
+                    <img src="img/homebar/s2.png" alt="">
+                    <h3>Shipping</h3>
+                    <p>Delivery is carried out quickly and safely by trained couriers, ensuring the pizza arrives in the best condition.</p>
+                </div>
+
+                <div class="s-box">
+                    <img src="img/homebar/s3.png" alt="">
+                    <h3>Delivered</h3>
+                    <p>This service ensures that the pizza ordered by the customer arrives on time and in fresh condition.</p>
+                </div>
+            </div>
+           </section>
+
+           <!-- Call to Action -->
+           <section class="cta">
+            <h2>We make quality food <br> Everyday</h2>
+            <a href="#contact" class="btn">Let's talk</a>
+           </section>
+
+           <!-- Footer -->
+            <section id="contact">
+                <div class="footer">
+                    <h2>Information</h2>
+                    <div class="main">
+                        <div class="col">
+                            <h4>Menu Links</h4>
+                            <ul>
+                                <li><a href="home.html" onclick="loadPage('home.html')">Home</a></li>
+                                <li><a href="statistic.html" onclick="loadPage('statistic.html')">Statistics</a></li>
+                                <li><a href="team.html" onclick="loadPage('team.html')">About Us</a></li>
+                                <!-- <li><a href="#">Services</a></li>
+                                <li><a href="#">Contact</a></li> -->
+                            </ul>
+                        </div>
+
+                        <div class="col">
+                            <h4>Our Service</h4>
+                            <ul>
+                                <li><a href="#services">Order</a></li>
+                                <li><a href="#services">Shipping</a></li>
+                                <li><a href="#services">Delivered</a></li>
+                            </ul>
+                        </div>
+
+
+                        <div class="col">
+                            <h4>Contact Us</h4>
+                            <div class="social">
+                                <a href="https://facebook.com" target="_blank"><i class='bx bxl-facebook'></i></a>
+                                <a href="https://instagram.com" target="_blank"><i class='bx bxl-instagram'></i></a>
+                                <a href="https://github.com/Kampus-Merdeka-Software-Engineering/km-feb24-semarang-24" target="_blank"><i class='bx bxl-github'></i></a>
+                                <a href="https://linkedin.com" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+    </body>
+</html>
